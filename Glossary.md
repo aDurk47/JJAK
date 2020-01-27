@@ -1,9 +1,9 @@
-#Glossary of Terms
+# Glossary of Terms
 
-JJAK
-488 Capstone Project
-Dr. Na
-1/26/2020
+JJAK  
+488 Capstone Project  
+Dr. Na  
+1/26/2020  
 
 Ability  
 Appearance  
