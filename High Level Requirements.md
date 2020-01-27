@@ -1,9 +1,9 @@
-#High Level Requirements
+# High Level Requirements
 
-JJAK
-488 Capstone Project
-Dr. Na
-1/26/2020
+JJAK  
+488 Capstone Project  
+Dr. Na  
+1/26/2020  
 
 ●	The game application should be able to authenticate users who enter a correct username and password to a login page.
 ●	The game application should provide a tutorial to outline core game functions.
