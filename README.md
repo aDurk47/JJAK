@@ -5,3 +5,4 @@ Disclaimer: Any art assets were taken from Google Images to enhance the GUI prot
 
 1.	Files with the extension “.drawio” use the web based diagram creation platform https://www.draw.io/.
 2.	Our GUI prototype is also our storyboard, and was created using Adobe XD. 
+3.  Deliverable 1 was uploaded without the correct folder. This has been rectified, but the orginal files will be left up until Deliverable 2 is uploaded to ensure dating is correct.  
