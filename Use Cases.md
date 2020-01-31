@@ -24,20 +24,14 @@ Name is too long: After 12 Characters are entered, the text box will not allow a
 Class is not selected:  The “Confirm” button will be grayed out.
 
 
-New Game  
+Character Selection  
 BASIC COURSE:  
-To start a new game, the player hits “New Game” in the main menu; this sends them to the “Create a Character” page. When they enter the details and hit “Confirm”, they are sent to the “Game menu” page. In this menu, they can find a random match by clicking “Find Match” or check their current team by clicking “Team”. In random math, players are automatically assigned to a game that immediately starts.
+After logging in, the player is displayed three character slots. Character slots are filled with any characters the player has created previously. Slots that are not filled, show a button that says “Create a Character”. By clicking a chracter, a more detailed character page is displayed detailing the specific characters stats and "Confirm" and "Return" buttons. By clicking the "Confirm" button, the player is shown the "Adventure Menu" page.
 
 ALTERNATE COURSE:  
-User selects Team: The player is sent to a team page where they can view their current team. They can leave this page by clicking hitting “Quit”.  
-User selects Quit: The player is sent to the home menu.   
+User selects Create a Character: The player is sent to the Character a Creation page.  
+User selects Return: The player is returned to the character slots.  
 
-Load Game  
-BASIC COURSE:  
-To load a saved game, the player hits “Load Game” in the main menu; this sends them to the “Game selection” page. On this page, they are presented with a list of previous games that they can re-enter. After selecting a game, the game starts immediately.
-
-ALTERNATE COURSE:  
-User has no saved games: The list of available games is empty and they only have the option to hit the back button.  
 
 Tutorial  
 BASIC COURSE:  
