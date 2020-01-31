@@ -26,7 +26,7 @@ Class is not selected:  The “Confirm” button will be grayed out.
 
 Character Selection  
 BASIC COURSE:  
-After logging in, the player is displayed three character slots. Character slots are filled with any characters the player has created previously. Slots that are not filled, show a button that says “Create a Character”. By clicking a chracter, a more detailed character page is displayed detailing the specific characters stats and "Confirm" and "Return" buttons. By clicking the "Confirm" button, the player is shown the "Adventure Menu" page.
+After logging in, the player is displayed three character slots. Character slots are filled with any characters the player has created previously. Slots that are not filled, show a button that says “Create a Character”. By clicking a character, a more detailed character page is displayed detailing the specific characters stats and "Confirm" and "Return" buttons. By clicking the "Confirm" button, the player is shown the "Adventure Menu" page.
 
 ALTERNATE COURSE:  
 User selects Create a Character: The player is sent to the Character a Creation page.  
