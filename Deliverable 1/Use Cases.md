@@ -33,7 +33,7 @@ User selects Team: The player is sent to a team page where they can view their c
 User selects Quit: The player is sent to the home menu. 
 
 ## Load Game  
-####BASIC COURSE:  
+#### BASIC COURSE:  
 To load a saved game, the player hits “Load Game” in the main menu; this sends them to the “Game selection” page. On this page, they are presented with a list of previous games that they can re-enter. After selecting a game, the game starts immediately.
 
 #### ALTERNATE COURSE:  
