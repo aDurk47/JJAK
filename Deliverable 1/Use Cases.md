@@ -12,7 +12,7 @@ The first time starting the application on their phone, players will be greeted 
 #### ALTERNATE COURSE:  
 **User gives invalid credentials:** The Interface will reject the user with an Error that prompts them to try again up to a preset limit before locking them out. They are also given the option to add a new account using the “Sign Up” button.
 **User has previously logged into the game:** The home page will appear instead of the login page.  
-![Login Page](/UseCaseImages/2020-2-11 (2).png)
+![Login Page](/UseCaseImages/2020-02-11(2).png)
 
 ## Create Character  
 #### BASIC COURSE:  
