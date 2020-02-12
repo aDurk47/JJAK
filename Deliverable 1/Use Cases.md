@@ -25,7 +25,7 @@ Class is not selected:  The “Confirm” button will be grayed out.
 
 
 ## New Game  
-### BASIC COURSE:  
+#### BASIC COURSE:  
 To start a new game, the player hits “New Game” in the main menu; this sends them to the “Create a Character” page. When they enter the details and hit “Confirm”, they are sent to the “Game menu” page. In this menu, they can find a random match by clicking “Find Match” or check their current team by clicking “Team”. In random math, players are automatically assigned to a game that immediately starts.
 
 #### ALTERNATE COURSE:  
