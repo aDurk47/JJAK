@@ -7,11 +7,13 @@ Dr. Na
 
 ## Login  
 #### BASIC COURSE:  
-The first time starting the application on their phone, players will be greeted with a Login Page. This page will contain a small game icon, and two text boxes; one labeled Username and one Password. The user enters their login credentials and click the button “Login” to attempt to login. The computer then searched the database for the proper account information, and they will be given access to the game. 
+The first time starting the application on their phone, the system displays a Login Page. The user enters their login credentials and click the button “Login” to attempt to login. The computer then searches the database for the proper account information, authenticates the user session, and the user will then enter the game. 
 
 #### ALTERNATE COURSE:  
-**User gives invalid credentials:** The Interface will reject the user with an Error that prompts them to try again up to a preset limit before locking them out. They are also given the option to add a new account using the “Sign Up” button.
-**User has previously logged into the game:** The home page will appear instead of the login page.  
+**User gives invalid credentials:** The Interface will reject the user with an Error that prompts them to try again up to a preset limit before locking them out. The user is also given the option to add a new account using the “Sign Up” button.
+**User has previously logged into the game:** The home page will appear instead of the login page.
+**User has tried to login more than five times:** User has an incorrect login attempt five times, resulting in being locked out of their account for a set amount of time.
+
 ![Login Page](/Deliverable%201/UseCaseImages/2020-02-11%20(2).png)
 
 ## Create Character  
