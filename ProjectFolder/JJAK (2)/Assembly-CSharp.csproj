@@ -60,12 +60,64 @@
      <Compile Include="Assets\Scripts\CharacterMenu.cs" />
      <Compile Include="Assets\Scripts\FirebaseInit.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\Unit.cs" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Craftpix Assets\License.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -279,27 +331,6 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.16f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="Firebase.Analytics">
- <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
- </Reference>
- <Reference Include="Firebase.App">
- <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
- </Reference>
- <Reference Include="Firebase.Platform">
- <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
- </Reference>
- <Reference Include="Firebase.TaskExtension">
- <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
- </Reference>
- <Reference Include="Google.MiniJson">
- <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Compat">
- <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Tasks">
- <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
@@ -308,6 +339,27 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.App">
+ <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Analytics">
+ <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Platform">
+ <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Tasks">
+ <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.MiniJson">
+ <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Compat">
+ <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.TaskExtension">
+ <HintPath>C:/Users/Andrew/Documents/CMPSC488/JJAK/ProjectFolder/JJAK (2)/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.16f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

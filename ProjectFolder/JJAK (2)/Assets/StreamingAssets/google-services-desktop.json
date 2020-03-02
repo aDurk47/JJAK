@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "527099369878",
+    "firebase_url": "https://jjak-b5bbc.firebaseio.com",
+    "project_id": "jjak-b5bbc",
+    "storage_bucket": "jjak-b5bbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527099369878:android:9896fecdb9d9940924e5b7",
+        "android_client_info": {
+          "package_name": "com.JJAK.tacturn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527099369878-1toidhib439a04k4e785iaa203n8f4km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTcYDr0qOeHXT9DG5zUfqOD4A6P7tcjh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527099369878-1toidhib439a04k4e785iaa203n8f4km.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
