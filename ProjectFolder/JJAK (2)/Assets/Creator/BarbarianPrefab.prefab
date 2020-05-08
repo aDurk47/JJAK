@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1864843851291576704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7087336216789213917}
+  - component: {fileID: 4003709695677938229}
+  m_Layer: 0
+  m_Name: BarbarianPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7087336216789213917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864843851291576704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 500.9969, y: 247.88086, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4003709695677938229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864843851291576704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ba79638b386bb48839fb78084d920c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterClassName: Barbarian
+  characterClassDescription: A mindess killing machine that destroys anyone his path.
+  front: {fileID: 21300000, guid: 52a341f76e311be44a7b765ff2765969, type: 3}
+  back: {fileID: 21300000, guid: af947c6d182be7442bbe48a2e29f3683, type: 3}
+  spells:
+  - {fileID: 2242406318516081010, guid: c030c25e920ccd147974a59d2bf9bdfb, type: 3}
+  - {fileID: 1603960254678844335, guid: 8eaff29df7855e8408f444c5a0d95864, type: 3}
+  - {fileID: 1611462301038959361, guid: 16134e859cff9b84d80d51b9dde5cd13, type: 3}
+  strength: 4
+  wisdom: 0
+  agility: 3

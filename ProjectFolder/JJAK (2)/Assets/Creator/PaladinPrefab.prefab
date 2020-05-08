@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2891719962822981692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6024537411110638433}
+  - component: {fileID: 454928053221313417}
+  m_Layer: 0
+  m_Name: PaladinPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6024537411110638433
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2891719962822981692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 500.9969, y: 247.88086, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &454928053221313417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2891719962822981692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ba79638b386bb48839fb78084d920c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterClassName: Paladin
+  characterClassDescription: A warrior of God, born to protect.
+  front: {fileID: 21300000, guid: 7be243ddbea0cef4894a57a1ab837fd9, type: 3}
+  back: {fileID: 21300000, guid: 8994000d72456064888e1f263defd905, type: 3}
+  spells:
+  - {fileID: 2533992405032356575, guid: 69779d63a6d2ff6448dce0864cf9bf59, type: 3}
+  - {fileID: 5065902111255764831, guid: 0d30406854cd0f24dbafdaf6dfdaa225, type: 3}
+  - {fileID: 1884157105051532241, guid: 3a0e48d100e90fc48ba1e93b6640fa66, type: 3}
+  strength: 4
+  wisdom: 1
+  agility: 2

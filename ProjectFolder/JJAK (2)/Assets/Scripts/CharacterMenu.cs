@@ -11,4 +11,12 @@ public class CharacterMenu : MonoBehaviour
     public void selectCharacter ()
     {
     }
+    public void AddCharacter()
+    {
+        NetworkManager.instance.loadCharacterCreation(true);
+    }
+    public void quitGame()
+    {
+        Application.Quit();
+    }
 }

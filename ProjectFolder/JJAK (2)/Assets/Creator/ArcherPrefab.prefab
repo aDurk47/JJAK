@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2964838957458105738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5953545908316704471}
+  - component: {fileID: 528170242629850687}
+  m_Layer: 0
+  m_Name: ArcherPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5953545908316704471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2964838957458105738}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 500.9969, y: 247.88086, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &528170242629850687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2964838957458105738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ba79638b386bb48839fb78084d920c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterClassName: Archer
+  characterClassDescription: A swift and fast hitting marksman who always hits their
+    target.
+  front: {fileID: 21300000, guid: 41cc12bf185b09f42bdded7b3291888b, type: 3}
+  back: {fileID: 21300000, guid: 89b7e32af4ccee9469e386d0f83980f9, type: 3}
+  spells:
+  - {fileID: 6281599661011034655, guid: 1ad428ec4398a93478840827f71b9b4c, type: 3}
+  - {fileID: 1624896988201577933, guid: 6b7ad13102b2bf14eba4ab356faeb3e1, type: 3}
+  - {fileID: 8016336626000002843, guid: 2c239858fa00e0345b4853e224659585, type: 3}
+  strength: 2
+  wisdom: 1
+  agility: 4
